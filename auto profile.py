@@ -9,7 +9,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)  # Keep browser open
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-user_id = 54144011
+user_id = 1
 
 print("Press 'Q' to go to the next Roblox inventory page.")
 print("Press 'ESC' to quit.")
